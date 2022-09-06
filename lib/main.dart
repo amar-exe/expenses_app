@@ -117,6 +117,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
   @override
   Widget build(BuildContext context) {
+    print(_recentTransactions.length);
     return Scaffold(
       appBar: AppBar(
         title: Text('Expenses App'),
