@@ -14,7 +14,7 @@ class Chart extends StatelessWidget {
         Duration(days: index),
       );
 
-      var totalSum;
+      double totalSum = 0;
 
       for (var i = 0; i < recentTransactions.length; i++) {
         if (recentTransactions[i].date.day == weekDay.day &&
